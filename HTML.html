@@ -1,0 +1,303 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <style>
+    /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#BAX_page-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.BAX_container {
+  padding: 20px;
+}
+
+/* Header Styles */
+#BAX_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.BAX_logo img {
+  height: 50px;
+}
+
+#BAX_nav-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+#BAX_nav-bar ul li {
+  margin-right: 20px;
+}
+
+#BAX_nav-bar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hero Section Styles */
+#BAX_hero {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#BAX_hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#BAX_form input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+#BAX_submit {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Features Section Styles */
+#BAX_features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.BAX_grid {
+  text-align: center;
+}
+
+.BAX_icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color:blue;
+}
+
+.BAX_icon.premium-materials {
+  color: #FF6F61;
+}
+
+.BAX_icon.fast-shipping {
+  color: #4AC9B0;
+}
+
+.BAX_icon.quality-assurance {
+  color: #FFCB74;
+}
+
+.BAX_desc {
+  font-size: 18px;
+}
+
+/* Pricing Section Styles */
+/* Pricing Section Styles */
+#BAX_pricing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.BAX_product {
+  flex-basis: calc(33.33% - 40px); /* Adjusted flex-basis value */
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #F2F2F2;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.BAX_level {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.BAX_product h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.BAX_product ol {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.BAX_btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer span {
+  display: block;
+  margin-top: 10px;
+}
+
+/* How It Works Section Styles */
+#BAX_how-it-works {
+  text-align: center; /* Center align the section content */
+}
+
+#BAX_video {
+  display: block;
+  margin: 0 auto; /* Set margin to auto to horizontally center the video */
+}
+
+  </style>
+</head>
+<body>
+  <div id="BAX_page-wrapper">
+    <header id="BAX_header">
+      <div class="BAX_logo">
+        <img id="BAX_header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
+      </div>
+
+      <nav id="BAX_nav-bar">
+        <ul>
+          <li><a class="BAX_nav-link" href="#BAX_features">Features</a></li>
+          <li><a class="BAX_nav-link" href="#BAX_how-it-works">How It Works</a></li>
+          <li><a class="BAX_nav-link" href="#BAX_pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="BAX_container"></div>
+
+    <section id="BAX_hero">
+      <h2>Handcrafted, BAX masterpieces</h2>
+      <form id="BAX_form" action="https://www.freecodecamp.com/email-submit">
+        <input name="BAX_email" id="BAX_email" type="email" placeholder="Enter your email address" required="">
+        <input id="BAX_submit" type="submit" value="Get Started" class="BAX_btn">
+      </form>
+    </section>
+
+    <div class="BAX_container">
+      <section id="BAX_features">
+        <div class="BAX_grid">
+          <div class="BAX_icon"><i class="fa fa-3x fa-fire"></i></div>
+          <div class="BAX_desc">
+            <h2>Premium Materials</h2>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="BAX_grid">
+          <div class="BAX_icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div class="BAX_desc">
+            <h2>Fast Shipping</h2>
+            <p>
+              We make sure you receive your trombone as soon as we have
+              finished making it. We also provide free returns if you are not
+              satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="BAX_grid">
+          <div class="BAX_icon">
+            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+          </div>
+          <div class="BAX_desc">
+            <h2>Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your
+              instrument.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="BAX_how-it-works">
+        <iframe id="BAX_video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+      </section>
+      <section id="BAX_pricing">
+        <div class="BAX_product" id="BAX_tenor">
+          <div class="BAX_level">Tenor Trombone</div>
+          <h2>$600</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="BAX_btn">Select</button>
+        </div>
+        <div class="BAX_product" id="BAX_bass">
+          <div class="BAX_level">Bass Trombone</div>
+          <h2>$900</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="BAX_btn">Select</button>
+        </div>
+        <div class="BAX_product" id="BAX_valve">
+          <div class="BAX_level">Valve Trombone</div>
+          <h2>$1200</h2>
+          <ol>
+            <li>Plays similar to a Trumpet</li>
+            <li>Great for Jazz Bands</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="BAX_btn">Select</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

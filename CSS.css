@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#BAX_page-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.BAX_container {
+  padding: 20px;
+}
+
+/* Header Styles */
+#BAX_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.BAX_logo img {
+  height: 50px;
+}
+
+#BAX_nav-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+#BAX_nav-bar ul li {
+  margin-right: 20px;
+}
+
+#BAX_nav-bar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hero Section Styles */
+#BAX_hero {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#BAX_hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#BAX_form input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+#BAX_submit {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Features Section Styles */
+#BAX_features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.BAX_grid {
+  text-align: center;
+}
+
+.BAX_icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color:blue;
+}
+
+.BAX_icon.premium-materials {
+  color: #FF6F61;
+}
+
+.BAX_icon.fast-shipping {
+  color: #4AC9B0;
+}
+
+.BAX_icon.quality-assurance {
+  color: #FFCB74;
+}
+
+.BAX_desc {
+  font-size: 18px;
+}
+
+/* Pricing Section Styles */
+/* Pricing Section Styles */
+#BAX_pricing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.BAX_product {
+  flex-basis: calc(33.33% - 40px); /* Adjusted flex-basis value */
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #F2F2F2;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.BAX_level {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.BAX_product h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.BAX_product ol {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.BAX_btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer span {
+  display: block;
+  margin-top: 10px;
+}
+
+/* How It Works Section Styles */
+#BAX_how-it-works {
+  text-align: center; /* Center align the section content */
+}
+
+#BAX_video {
+  display: block;
+  margin: 0 auto; /* Set margin to auto to horizontally center the video */
+}
